@@ -1,0 +1,252 @@
+body {
+  padding: 0;
+  margin: 0 ;
+  /* background: #f2f2f2 url('https://formbuilder.online/assets/img/noise.png'); */
+  background: rgb(211, 225, 243);
+ 
+}
+/* .formbuilder-icon-autocomplete{
+  color: purple;
+  font-size: large;
+  font-weight:bolder;
+  
+}
+
+.formbuilder-icon-button{
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-checkbox-group{
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-date{
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-file{
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-header{
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-hidden{
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-number{
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-paragraph{
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-select{
+
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-text{
+  
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+
+}
+.formbuilder-icon-textarea{
+  
+  color: purple;
+  font-size: large;
+  font-weight: bolder;
+}
+
+
+
+.formbuilder-icon-radio-group{
+  color: purple;
+  background-color: rgb(197, 12, 12);
+  font-size: large;
+  font-weight: bolder;
+}
+.form-builder{
+ background-color: blue;
+ float: left;
+ align-self: center;
+ width: 100px;
+} 
+.form-wrap{
+  box-sizing:100px;
+  background-color: rgb(211, 225, 243);
+  padding:190px;
+
+}
+ /* .form-wrap.form-builder{
+  background-color: rgb(133, 22, 55);
+}   */
+.form-builder-overlay{
+  background-color: rgb(210, 169, 243);
+}
+ .field-actions{
+   background-color: aquamarine;
+ 
+ }
+ /* #build-wrap{
+   background-color: rgb(142, 220, 240);
+     
+ }  */
+
+
+.form-wrap.form-builder .btn{
+   /* background-color: red;  */
+}
+.pull-right{
+  background-color:rgb(211, 225, 243);
+  width: 25px; 
+  height:500px;
+  position:absolute;
+ left:10px;
+  top:100px; 
+  padding: 0px;
+  
+
+}
+.pull-left{
+   background-color: rgb(202, 184, 202); 
+  
+}
+/* .form-wrap form-builder{
+ flex-direction: column-reverse;
+} */
+
+.form-wrap.form-builder .pull-left {
+  float:right;
+}
+.form-wrap.form-builder .pull-left {
+  float:right ;
+}
+.pull-left {
+  float: right!important;
+}
+.form-wrap.form-builder .frmb-control {
+  position:absolute;
+  left:5px;
+  top:5px;
+  padding: 25px;
+  border-radius: 5px;
+   display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+  row-gap: 30px;
+} 
+.form-builder {
+  /* background-color: blue; */
+  /* float: left; */
+  align-self: center;
+  width: 1000px;
+}
+.form-wrap.form-builder .cb-wrap {
+  width: 56%;
+
+  transition: transform 250ms;
+  
+  
+}
+
+[class^="formbuilder-icon-"]:before, [class*=" formbuilder-icon-"]:before {
+  font-family: "formbuilder-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: 0.2em;
+  /* padding-top:30px;
+  padding-left:0px; */
+}
+.form-wrap.form-builder .stage-wrap {
+  position:absolute;
+  padding: 0;
+  margin: 0;
+  width:70%;
+  height:100%;
+  left:56%;
+}
+
+
+
+
+/* Gopi */
+.form-wrap.form-builder .frmb li {
+  position: fixed;
+  padding: 6px;
+  clear: both;
+  margin-left: 0;
+  width:100%;
+  margin-bottom: 3px;
+  background-color: #fff;
+  transition: background-color 250ms ease-in-out, margin-top 400ms;
+}
+
+/* inserted form fields on click */
+.form-wrap.form-builder * {
+  box-sizing: border-box;
+  /* border-radius: 10px; */
+    width:500;
+   height:fit-content;
+}
+
+/* clear box */
+.btn-group, .btn-group-vertical {
+  position: absolute;
+  top:420px;
+  left: -200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* dotted box */
+.form-wrap.form-builder .stage-wrap {
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  width: 70%;
+  height:500px;
+  left: 56%;
+  top:20px;
+}
+
+/* left grid parent class */
+.form-wrap.form-builder .cb-wrap {
+  position:absolute;
+  width: 54%;
+  transition: transform 250ms;
+  height:400px;
+  background-color: rgb(52, 124, 124);
+}
